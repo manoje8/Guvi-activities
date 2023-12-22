@@ -2,7 +2,7 @@ Difference between document and window objects:
 
      The window object is the global object that contains all the properties 
 and methods available to the current window or frame. 
-The document object is a property of the window object that represents 
+     The document object is a property of the window object that represents 
 the DOM (document object model) of the current web page.
  
 The document object represents a web page that is loaded in the 
