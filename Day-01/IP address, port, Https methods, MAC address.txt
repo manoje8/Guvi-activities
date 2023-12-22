@@ -1,0 +1,49 @@
+Internet Protocol: 
+     An IP address is a unique numerical identifier assigned to each 
+device connected to a computer network that uses the Internet Protocol 
+for communication. It serves two primary purposes: for host or network 
+interface identification and location addressing of a connected device.
+
+Port: 
+     A port is a communication endpoint that identifies a specific 
+process to which a message is sent. Ports are used to differentiate 
+between multiple processes running on the same device.
+
+HTTP methods:
+     HTTP methods are used to indicate the desired action to be 
+performed on a resource. The most common HTTP methods are GET, 
+POST, PUT, DELETE, HEAD, PATCH and OPTIONS.
+     
+GET: GET request is used to read/retrieve data from a web server. GET 
+returns an HTTP status code of 200 (OK) if the data is successfully 
+retrieved from the server.
+
+POST: POST request is used to send data (file, form data, etc.) to the 
+server. On successful creation, it returns an HTTP status code of 201.
+
+PUT: A PUT request is used to modify the data on the server. It replaces 
+the entire content at a particular location with data that is passed in the 
+body payload. If there are no resources that match the request, it will 
+generate one.
+
+PATCH: PATCH is similar to PUT request, but the only difference is, it 
+modifies a part of the data. It will only replace the content that you want 
+to update.
+
+DELETE: A DELETE request is used to delete the data on the server at 
+a specified location.
+
+OPTIONS: OPTIONS method describes the communication options for 
+the target resource.
+
+HEAD: HEAD method asks for a response identical to a GET request, 
+but without the response body.
+
+MAC address:
+     A MAC address is a unique identifier assigned to a network 
+interface controller (NIC) for use as a network address in 
+communications within a network segment. It is a six-byte hexadecimal 
+address that contains 6 groups of 2 hexadecimal digits, separated by 
+either hyphens (-) or colons (.). MAC addresses are used to ensure the 
+physical address of a computer and to uniquely identify devices on a 
+network.

@@ -1,0 +1,29 @@
+Difference between http/2 and http/1.1
+
+	HTTP/2 is the successor of HTTP/1.1 and was released in 2015. The 
+main difference between HTTP/2 and HTTP/1.1 is that HTTP/2 is a binary 
+protocol, whereas HTTP/1.1 is a text-based protocol. This means that 
+HTTP/2 is more efficient in terms of data transfer, as it can compress 
+headers and multiplex multiple requests over a single connection. HTTP/2 
+also supports server push, which allows the server to send resources to the 
+client before the client requests them.
+
+HTTP/1.1, on the other hand, requires a new connection for each 
+request/response cycle, which can be inefficient. It also lacks support for 
+server push and header compression.
+
+In HTTP/1.1, the client sends a request to the server, and the server responds 
+with the requested resource. This process is repeated for each resource that 
+the client needs to load, which can lead to high latency and slow page load 
+times. In contrast, HTTP/2 uses a single connection to send multiple requests 
+and responses simultaneously, which can significantly reduce latency and 
+improve page load times.
+
+Another key difference between HTTP/2 and HTTP/1.1 is that HTTP/2 uses 
+stream prioritization to optimize the order in which resources are loaded. 
+This means that the most important resources are loaded first, which can 
+further improve page load times.
+
+In summary, HTTP/2 is a more efficient and faster protocol than HTTP/1.1, 
+due to its binary format, header compression, multiplexing, server push, and 
+stream prioritization features

@@ -1,0 +1,16 @@
+Object and its representation:
+
+     An object in JavaScript is a data type that can store various collections of 
+data and more complex entities. Objects can be created using the Object() 
+constructor or the object initializer / literal syntax.
+const object = { a: 'foo', b: 42, c: {} };
+
+In JavaScript, objects are defined as an unordered collection of related data, of 
+primitive or reference types, in the form of “key: value” pairs. These keys can be 
+variables or functions and are called properties and methods, respectively, in the 
+context of an object.
+
+The representation of an object in JavaScript is a string of [object Object]. To see 
+the contents of an object, you should print the object to the console using 
+console.log() or convert the object to a string. Alternatively, you can use a for…in 
+loop to iterate over the object and see its contents
