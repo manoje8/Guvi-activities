@@ -1,0 +1,22 @@
+//7) Remove duplicates from an array
+let arr = [5, 7, 2, 9, 2, 6, 5];
+
+//Anonymous function
+
+const removeDuplicates = function(arr)
+{
+    return arr.filter((element, index) => {
+        return arr.indexOf(element) === index; 
+    })
+}
+
+let withoutDup = removeDuplicates(arr);
+console.log(withoutDup);
+
+//Immediate Invoke Function Execution(IIFE)
+
+(function toRemoveDuplicates(arr)
+{
+    let withoutDup =  arr.filter((element, index) => arr.indexOf(element) === index)
+    console.log(withoutDup);
+})(arr)

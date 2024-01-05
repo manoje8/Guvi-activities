@@ -1,0 +1,55 @@
+//8) Rotate an array by k times
+
+let arr = [1, 2, 3, 4, 5, 6];
+let rotate = 2;
+let len = arr.length;
+let r = (rotate%len);
+
+//Anonymous function
+
+const rotateArray = function(arr,len,r)
+{
+    let temp = []
+    for(let i=0; i<r; i++)
+    {
+        temp.push(arr[i]);
+    }
+
+    for(let j=r; j<len;j++)
+    {
+        arr[j-r] = arr[j];
+    }
+
+    let index = 0;
+    for(let k = len-r; k<len; k++)
+    {
+        arr[k] = temp[index++];
+    }
+}
+
+rotateArray(arr,len,r);
+console.log(arr);
+
+//Immediate Invoke Function Execution(IIFE)
+
+(function toRotateArray(arr,len,r)
+{
+    let temp = []
+    for(let i=0; i<r; i++)
+    {
+        temp.push(arr[i]);
+    }
+
+    for(let j=r; j<len;j++)
+    {
+        arr[j-r] = arr[j];
+    }
+
+    let index = 0;
+    for(let k = len-r; k<len; k++)
+    {
+        arr[k] = temp[index++];
+    }
+})(arr,len,r)
+
+console.log(arr);

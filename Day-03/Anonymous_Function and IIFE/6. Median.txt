@@ -1,0 +1,43 @@
+//6) Return median of two sorted arrays of the same size.
+
+let arr1 = [5, 7, 2, 9];
+let arr2 = [10, 1, 45, 12];
+
+//Anonymous function
+
+let findMedian = function(arr1, arr2)
+{
+    let merge = [...arr1, ...arr2].sort((a,b) => a-b);
+    let mid = Math.floor(merge.length/2);
+
+    if(mid%2 === 0)
+    {
+        let left = merge[mid-1];
+        let right = merge[mid];
+        return (left+right)/2
+    }else
+    {
+        return merge[mid];
+    }
+}
+
+let median = findMedian(arr1, arr2);
+console.log(median);
+
+//Immediate Invoke Function Execution(IIFE)
+
+(function toFindMedian(arr1, arr2)
+{
+    let merge = [...arr1, ...arr2].sort((a,b) => a-b);
+    let mid = Math.floor(merge.length/2);
+
+    if(mid%2 === 0)
+    {
+        let left = merge[mid-1];
+        let right = merge[mid];
+        console.log((left+right)/2);
+    }else
+    {
+        console.log(merge[mid]);
+    }
+})(arr1, arr2)

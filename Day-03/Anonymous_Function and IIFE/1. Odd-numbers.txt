@@ -1,0 +1,30 @@
+//1) Print odd numbers in an array
+
+const arrayNumber = [5, 12, 32, 11, 15, 87, 19, 21, 33, 72, 55, 97, 100];
+
+//Anonymous function
+
+let getOddNumber = function(num){
+    for(let i of num)
+    {
+      if(i % 2 !== 0)
+      {
+        console.log("Odd number: ", i);
+      }
+    }
+}
+
+getOddNumber(arrayNumber);
+
+//Immediate Invoke Function Execution(IIFE)
+
+(function toGetOddNumber(num)
+{
+  for(let i of num)
+    {
+      if(i % 2 !== 0)
+      {
+        console.log("Odd number: ", i);
+      }
+    }
+})(arrayNumber);

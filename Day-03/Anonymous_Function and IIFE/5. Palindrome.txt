@@ -1,0 +1,33 @@
+//5) Return all the palindromes in an array
+
+let inputArray = ['wow', 'lemon', 'owl', 'noon', 'civic'];
+
+//Anonymous function
+
+const findPalindrome = function(arr)
+{
+    function isPalindrome(str)
+    {
+        let reversedString = str.split('').reverse().join('');
+        return str === reversedString;
+    }
+    return arr.filter(isPalindrome);
+
+}
+
+let palindromes = findPalindrome(inputArray);
+console.log(palindromes);
+
+//Immediate Invoke Function Execution(IIFE)
+
+(function toFindPalindrome(arr)
+{
+    function isPalindrome(str)
+    {
+        let reversedString = str.split('').reverse().join('');
+        return str === reversedString;
+    }
+    let res =  arr.filter(isPalindrome);
+    console.log(res);
+
+})(inputArray)
