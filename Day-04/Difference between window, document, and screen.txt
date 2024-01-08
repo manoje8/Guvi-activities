@@ -1,1 +1,27 @@
-Difference between window, screen, and document in JavaScript*	Window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window. Window is the first thing that gets loaded into the browser and has properties like length, innerWidth, innerHeight, name, etc. Window also has a screen object and a document object as its properties.*	Document is the content of the window, i.e. the HTML document. You can access it as window.document or just document. Document is where the DOM (document object model) is and has properties like title, URL, cookie, etc. Document also has methods to manipulate the DOM, such as getElementById, createElement, appendChild, etc.*	Screen is a small information object about physical screen dimensions. You can access it as window.screen or just screen. Screen has properties like width, height, availWidth, availHeight, etc. Screen does not have any methods and is not related to the actual browser window size.The most basic relationship among the three is that each browser tab has its own window, and a window has window.document and window.screen properties. The browser tab's window is the global context, so document and screen refer to window.document and window.screen.
+Difference between window, screen, and document in JavaScript
+
+
+*	Window is the main JavaScript object root, aka the global object in a browser, 
+and it can also be treated as the root of the document object model. You can 
+access it as window. Window is the first thing that gets loaded into the browser 
+and has properties like length, innerWidth, innerHeight, name, etc. Window 
+also has a screen object and a document object as its properties.
+
+
+*	Document is the content of the window, i.e. the HTML document. You can 
+access it as window.document or just document. Document is where the DOM 
+(document object model) is and has properties like title, URL, cookie, etc. 
+Document also has methods to manipulate the DOM, such as getElementById, 
+createElement, appendChild, etc.
+
+
+*	Screen is a small information object about physical screen dimensions. You can 
+access it as window.screen or just screen. Screen has properties like width, 
+height, availWidth, availHeight, etc. Screen does not have any methods and is 
+not related to the actual browser window size.
+
+
+The most basic relationship among the three is that each browser tab has its own 
+window, and a window has window.document and window.screen properties. The 
+browser tab's window is the global context, so document and screen refer to 
+window.document and window.screen.
