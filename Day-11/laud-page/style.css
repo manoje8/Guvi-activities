@@ -1,0 +1,522 @@
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home container */
+
+.home-container
+{
+    background-color: black;
+    height: 80vh;
+    color: #fff;
+    text-align: center;
+}
+
+
+.nav-bar
+{
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    align-items: center;
+    padding-left: 22%;
+    background-color: #000;
+
+}
+
+
+#icon
+{
+    display: none;
+}
+
+.name
+{
+    position: relative;
+    top: calc(80%/2);
+    font-size: x-large;
+}
+
+.text-nav
+{
+    color: #fff;
+
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+  /*------------------------bio-container--------------------*/
+
+.bio-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 1.5rem;
+}
+
+.content
+{
+    width: 50vw;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.info
+{
+    height:220px;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.image
+{
+    width: 45%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+img
+{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.bio-button
+{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    
+
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    color: black;
+}
+
+.wiki
+{
+    background-color: gainsboro
+}
+
+.youtube
+{
+    background-color: red;
+    color:white
+}
+
+.amazon
+{
+    background-color: orange
+}
+
+.bio-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 20vh;
+    color: #fff;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*--------------Achievement container--------------------*/
+
+.achievement-container
+{
+    height: 100vh;
+}
+
+.award
+{
+    height: 35vh;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box
+{
+    height: 60px;
+    width: 170px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.p-title
+{
+    font-size: smaller;
+}
+
+.p-award
+{
+    font-size: x-small;
+}
+
+.p-year
+{
+    font-size: x-small;
+    padding-bottom: 5px;
+}
+
+
+
+.hr-line
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7vh;
+    outline: 0;
+    border: 0;
+    color: black;
+    line-height: 1em;
+    &:before
+    {
+        content: "";
+        background: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 45vw;
+        height: 1px;
+        opacity: 0.2;
+    }
+    &:after
+    {
+        content: "";
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 45vw;
+        height: 1px;
+        opacity: 0.2;
+    }
+}
+
+
+/*---------------works-------------------*/
+
+.works
+{
+    height: 40vh;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-box
+{
+    height: 35vh;
+    width: 360px;
+    display: inherit;
+    gap: 2px;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.poetry-line
+{
+    text-align: center;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    line-height: 1em;
+    font-size: large;
+    &:before
+    {
+        content: "";
+        background: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 10vw;
+        height: 1px;
+        opacity: 0.2;
+    }
+    &:after
+    {
+        content: "";
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 10vw;
+        height: 1px;
+        opacity: 0.2;
+    }
+}
+
+.poems-line
+{
+    text-align: center;
+    position: relative;
+    border: 0;
+    outline: 0;
+    line-height: 1em;
+    color: #000;
+    font-size: large;
+    &:before
+    {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 1px;
+        width: 6vw;
+        background: #000;
+        opacity: 0.2;
+    }
+
+    &:after
+    {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        height: 1px;
+        width: 6vw;
+        background: #000;
+        opacity: 0.2;
+    }
+}
+
+footer
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.footer-box
+{
+    height: 50px;
+    width: 240px;
+    display: inherit;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: left;
+    padding:10px;
+}
+
+.footer-line
+{
+    border-left: 1px solid rgba(211, 205, 205, 0.5);
+    border-right: 1px solid rgb(212, 207, 207,0.5);
+}
+
+/*----------------------------Mobile size display------------------------------*/
+
+@media screen and (min-width:430px) and (max-width:932px){
+
+    /* Home container */
+
+    .home-container
+    {
+        height: 100vh;
+        width: inherit;
+    }
+
+    .nav-bar
+    {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        bottom: 0;
+        padding: 10px;
+    
+    }
+
+    .text-nav
+    {
+        display: none;
+    }
+
+    #icon
+    {
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Bio container */
+
+    .bio-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .content
+    {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .image
+    {
+        position: absolute;
+        bottom: 0;
+        height: 160px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border: none;
+    }
+    img
+    {
+        height: 150px;
+        width: 150px;
+        padding-left: 0;
+    }
+
+    .bio-footer
+    {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .bio-button
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    /*----------------achievement -------------*/
+
+    .hr-line
+    {
+        &:before
+        {
+            width: 38%;
+        }
+        &:after
+        {
+            width: 38%;
+        }
+    }
+
+    .poems-line
+    {
+        font-size: 13px;
+        &:before
+        {
+            width: 7%;
+        }
+        &:after
+        {
+            width: 7%;
+        }
+    }
+
+    .poetry-line
+    {
+        font-size: 13px;
+        &:before
+        {
+            width: 50px;
+        }
+        &:after
+        {
+            width: 50px;
+        }
+    }
+
+    .award
+    {
+        padding: 5px;
+    }
+
+    .box
+    {
+        height: 90px;
+    }
+
+    .p-title
+    {
+        font-size: 13px;
+    }
+
+    .works
+    {
+        padding: 10px;
+    }
+
+    .text
+    {
+        font-size: 13px;
+    }
+
+    footer
+    {
+        padding: 0 10px;
+    }
+
+    .footer-box
+    {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .name
+    {
+        font-size: 20px;
+    }
+
+    .p-title
+    {
+        font-size: 12px;
+    }
+
+
+}

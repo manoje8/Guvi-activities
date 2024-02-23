@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+
+            <!-- Name -->
+
+            <label class="asterisk">
+                <b>Name</b>
+            </label>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-sm" required>
+                    <label>First</label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-sm" required>
+                    <label>Last</label>
+                </div>
+            </div>
+
+            <!-- Email -->
+
+            <label class="asterisk">
+                <b>Email</b>
+            </label>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="email" class="form-control form-control-sm">
+                </div>
+            </div>
+
+            <!-- Rating -->
+
+            <label class="asterisk">
+                <b>Your Experience</b>
+            </label>
+            <div class="row">
+                <div class="col">
+                    <span class="fa fa-star fa-lg checked"></span>
+                    <span class="fa fa-star fa-lg checked"></span>
+                    <span class="fa fa-star fa-lg checked"></span>
+                    <span class="fa fa-star fa-lg checked"></span>
+                    <span class="fa fa-star fa-lg checked"></span>
+                </div>
+            </div>
+            <label>Overall how would you rate you experience with us?</label>
+
+            <!-- table 1 -->
+
+            <br>
+            <label class="asterisk">
+                <b>How satisfied are you with</b>
+            </label>
+            <br>
+            <table class="table table-striped table-borderless table-responsive-md">
+                <thead align="center">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Very Unsatisfied</th>
+                        <th scope="col">Unsatisfied</th>
+                        <th scope="col">Neutral</th>
+                        <th scope="col">Satisfied</th>
+                        <th scope="col">Very Satisfied</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="purchase">Purchase</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice1" id="purchase"></td>
+                        <td align="center"><input type="radio" name="choice1" id="purchase"></td>
+                        <td align="center"><input type="radio" name="choice1" id="purchase"></td>
+                        <td align="center"><input type="radio" name="choice1" id="purchase"></td>
+                        <td align="center"><input type="radio" name="choice1" id="purchase"></td>
+                    </tr>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="service">Service</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice2" id="service"></td>
+                        <td align="center"><input type="radio" name="choice2" id="service"></td>
+                        <td align="center"><input type="radio" name="choice2" id="service"></td>
+                        <td align="center"><input type="radio" name="choice2" id="service"></td>
+                        <td align="center"><input type="radio" name="choice2" id="service"></td>
+                    </tr>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="company">Company Overall</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <!-- table 2 -->
+
+            <br>
+            <label class="asterisk">
+                <b>How likely are you to</b>
+            </label>
+            <br>
+            <table class="table table-striped table-borderless table-responsive-md">
+                <thead align="center">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">very Unlikely</th>
+                        <th scope="col">Unlikely</th>
+                        <th scope="col">Neutral</th>
+                        <th scope="col">Likely</th>
+                        <th scope="col">very Likely</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="buy">Buy from us again</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice1" id="buy"></td>
+                        <td align="center"><input type="radio" name="choice1" id="buy"></td>
+                        <td align="center"><input type="radio" name="choice1" id="buy"></td>
+                        <td align="center"><input type="radio" name="choice1" id="buy"></td>
+                        <td align="center"><input type="radio" name="choice1" id="buy"></td>
+                    </tr>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="product">Recommend our product to others</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice2" id="product"></td>
+                        <td align="center"><input type="radio" name="choice2" id="product"></td>
+                        <td align="center"><input type="radio" name="choice2" id="product"></td>
+                        <td align="center"><input type="radio" name="choice2" id="product"></td>
+                        <td align="center"><input type="radio" name="choice2" id="product"></td>
+                    </tr>
+                    <tr>
+                        <th class="th-row" scope="row">
+                            <label for="company">Recommend our company to others</label>
+                        </th>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                        <td align="center"><input type="radio" name="choice3" id="company"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Comment box -->
+            <br>
+            <label>
+                <b>Additional comments or suggestions</b>
+            </label>
+            <br>
+            <textarea class="form-control" name="" id="" cols="96" rows="5"></textarea>
+            <br>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </div>
+        
+    </form>
+
+    <!-- jQuery and Bootstrap Bundle -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

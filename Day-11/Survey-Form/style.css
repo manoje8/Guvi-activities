@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+}
+
+.form-group
+{
+    border: 1px solid rgb(215, 216, 218);
+    margin: 0px 20vw;
+    height: auto;
+    padding: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.asterisk
+{
+    &:after
+    {
+    content: "*";
+    color: red;
+    }
+}
+
+
+
+th,
+td 
+{
+    font-weight: normal;
+    font-size: small;
+}
+
+
