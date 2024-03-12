@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(74, 150, 175, 0.333), rgb(230, 50, 10,0.5),rgb(17, 214, 214));
+}
