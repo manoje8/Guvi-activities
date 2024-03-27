@@ -1,1 +1,0 @@
-Welcome to the **Game of Thrones Characters API**! This API provides structured data about characters from the [**Game of Thrones**](https://thronesapi.com/) universe.
