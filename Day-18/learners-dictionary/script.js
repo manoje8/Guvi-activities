@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json()
         }).then(data => {
             
+            const partOfSpeech = data[0].meanings[0].partOfSpeech;
 
             //Added title for the word
             let definitionTitle = document.querySelector(".definition-title");
@@ -36,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             //Added figure of speech
             let speech = document.querySelector(".pos");
-            const partOfSpeech = data[0].meanings[0].partOfSpeech;
             speech.innerHTML = partOfSpeech;
 
             //Added phoneotic word
