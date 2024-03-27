@@ -1,0 +1,301 @@
+:root{
+  --rem: 16;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 100%;
+  line-height: 1.6em;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333333;
+  -webkit-text-size-adjust: none;
+}
+
+.title-container, .body-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.h-title{
+    height: 48px;
+    width: 80%;
+    display: inherit;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.search-bar{
+    background: linear-gradient(90deg, rgba(8,69,144,1) 0%, rgba(23,96,187,1) 50%, rgba(8,69,144,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-search, .responsive-row{
+    width: 780px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-search .search-form{
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    height: 48px;
+    background-color: #fff;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-search .languageSelector{
+    float: left;
+    width: 220px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    background-color: #F7EA76;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-search .languageSelector .language{
+    text-align: right;
+    width: 100%;
+    padding: 0px;
+    font-size: 16px;
+    text-transform: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 48px;
+    border-right: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-field{
+    width: 65%;
+    float: left;
+    height: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.search-field-input{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    width: 92%;
+    outline: none;
+    border: none;
+    height: 48px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-left: 15px;
+}
+
+.main-search form #search-btn{
+    float: right;
+    height: 48px;
+    cursor: pointer;
+    line-height: 48px;
+    color: #4877af;
+    text-align: center;
+    vertical-align: middle;
+    width: 48px;
+    border-left: 1px solid #d9d9d9;
+    font-size: 28px;
+}
+
+.main-search form #search-btn input{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 48px;
+    border: none;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("https://www.svgrepo.com/show/7109/search.svg");
+    background-size: 25px;
+    background-position-y: center;
+    background-position-x: center;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    line-height: 48px;
+    padding: 0px;
+    font-size: 16px;
+    border-radius: 0px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.responsive-row{
+    clear: both;
+    margin-bottom: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.responsive-entry-center{
+    float: left;
+}
+
+.responsive-entry-center-wrap{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 0 0 21px;
+    min-height: 260px;
+}
+
+.entry-header{
+    padding: 0px;
+}
+
+.responsive_entry_center_left
+{
+  width: 471px;
+}
+
+p.definition-title{
+  font-size: 14px;
+  color: #999999;
+  margin-left: -20px;
+}
+
+p
+{
+  margin-bottom: 7px;
+}
+
+.main-wrapper{
+    width: 648px;
+}
+
+h1.head-word{
+    font-size: 2.125rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0rem 0rem 0rem 0rem;
+    color: #1A3561;
+    line-height: 2.625rem;
+}
+
+.pos
+{
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0rem 0rem 0rem 0.25rem;
+}
+
+span .phonetic{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.phon{
+    font-family: "Lucida Sans Unicode", "Lucida Grande";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333333;
+}
+
+.sense-single{
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.square-list{
+    list-style: square;
+    padding: 1rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+
+.bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+  font-size: 14px;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+footer .footer-container{
+    border-top: 1px solid #d9d9d9;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+footer .footer-container .social-media-container{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+footer .row{
+  width: auto;
+  display: inline;
+  margin-bottom: 0px;
+}
+
+.row{
+    display: flex;
+}
+
+footer .footer-container .social-media-container  ul
+{
+    padding-left: 0px;
+    font-size: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+footer .footer-container .social-media-container ul li
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .footer-container .social-media-container ul li a{
+    content: "";
+    display: block;
+    height: 30px;
+    width: calc((60px / 2) + 50px);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.facebook-logo{
+    background-image: url("https://cdn-icons-png.flaticon.com/256/124/124010.png");
+}
+
+.wordpress-logo{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png");
+}
+
+.instagram-logo{
+    background-image: url("https://seeklogo.com/images/I/instagram-logo-1494D6FE63-seeklogo.com.png");
+}
+

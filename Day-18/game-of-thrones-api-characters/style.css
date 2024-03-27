@@ -1,0 +1,23 @@
+:root{
+    margin: 0;
+}
+
+.card-container
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card{
+    width: 20rem;
+    min-height: 10rem;
+}
+
+.card-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(60deg, #4567 50%, #8954 50%);
+}
