@@ -1,0 +1,21 @@
+.main{
+  min-height: 100vh;
+  max-height: 100%;
+  background: linear-gradient(135deg, rgb(0, 90, 246)0%,rgba(0, 90, 246, 0.908) 20%, rgba(0, 90, 246, 0.853) 40%, rgba(0, 90, 246, 0.793) 60%, rgba(0, 90, 246, 0.486) 80%, rgba(0, 90, 246, 0.338) 100%)
+}
+
+.container{
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

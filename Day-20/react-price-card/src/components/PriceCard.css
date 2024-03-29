@@ -1,0 +1,41 @@
+.card{
+    margin: 5px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-body, .btn{
+    font-size: small;
+}
+
+
+ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+i{
+    padding-right: 7px;
+}
+
+.btn{
+    margin: 0 15px 15px 15px;
+    border-radius: 50px;
+    background: rgba(0, 115, 255, 0.659);
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+    background: rgba(0, 98, 255);
+}
