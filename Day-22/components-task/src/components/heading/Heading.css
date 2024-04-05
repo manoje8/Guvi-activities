@@ -1,0 +1,46 @@
+.masthead {
+    width: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/img/pexels-bri-schneiter-346529.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.masthead h1 {
+    font-size: 3rem;
+}
+
+.form-control-lg {
+    min-height: 4rem;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.col-auto .btn {
+    min-height: 4rem;
+}
+
+.signUp{
+    width: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/img/pexels-bri-schneiter-346529.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}

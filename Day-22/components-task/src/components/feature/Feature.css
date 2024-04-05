@@ -1,0 +1,25 @@
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+}
