@@ -1,0 +1,5 @@
+.card .card-body{
+    background-color : lightgreen;
+    min-height: 220px;
+    border-radius: 5px;
+}
