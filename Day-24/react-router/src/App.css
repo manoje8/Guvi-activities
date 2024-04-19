@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App ul.menu {
+  margin: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.App ul.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.App ul.menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.App ul.menu li a:hover {
+  padding: 2px 5px;
+  color:  rgb(15, 214, 15);
+  background-color:rgba(203, 207, 203, 0.144);
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+  text-decoration-color: rgb(15, 214, 15);
+  text-underline-offset: 20px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
