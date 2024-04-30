@@ -16,11 +16,11 @@ const Cart = ({ product }) => {
             {
                 if (name === "plus") 
                 {
-                    return { ...item, price: (product[id-1].price + currentPrice), stock: currentStock - 1}
+                    return { ...item, price: (product[id].price + currentPrice), stock: currentStock - 1}
                 } 
                 else if (name === "minus") 
                 {
-                    return { ...item, price: (currentPrice - product[id-1].price), stock: currentStock + 1}
+                    return { ...item, price: (currentPrice - product[id].price), stock: currentStock + 1}
                 }
                  else 
                 {
@@ -51,9 +51,9 @@ const Cart = ({ product }) => {
         <div className='cart'>
             <div className='shopping-bag'>
                 <SelectionHeader>
-                    {dupProduct.map((product) => {
+                    {dupProduct.map((product, id) => {
                         return (
-                            <Baglist key={product.id} product={product} 
+                            <Baglist key={id} product={product} 
                             updateQuantity={updateQuantity} 
                             removeProduct = {removeProduct}/>
                         )}
