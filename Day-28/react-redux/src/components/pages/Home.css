@@ -1,0 +1,15 @@
+.home-container {
+  height: 50vh;
+  width: 100%;
+  border: none;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 100vw;
+  background-position-y: center;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
