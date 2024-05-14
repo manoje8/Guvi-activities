@@ -40,5 +40,5 @@ db.product.find({ $or:[{ "product_color": "indigo"},{ "product_price": 492}]}).p
 ```
 10. Delete the products which product price value are 28
 ```
-db.product.find({product_price: 28})
+db.product.deleteMany({product_price: 28})
 ```
